@@ -1,0 +1,39 @@
+I"�<div class="container">    <section class="header">
+      <h2 class="title">基于 CSS 逻辑属性构建的下一代 CSS 应用。</h2>
+
+      <a class="button button-primary" href="">下载试用 Hantas</a>
+
+      <div class="row">
+        <div class="four columns">
+          <img class="value-img" src="/assets/images/feather.svg" /> 约550行代码 &amp; 为移动设备而生
+        </div>
+        <div class="four columns value-prop">
+          <img class="value-img" src="/assets/images/pens.svg" /> 始于设计，而非 UI 框架
+        </div>
+        <div class="four columns value-prop">
+          <img class="value-img" src="/assets/images/watch.svg" /> 不需编译、安装，开箱即用
+        </div>
+      </div>
+    </section>
+<div class="docs-section" id="intro">
+      <h6 class="docs-header">Hantas 能做什么？</h6>
+      <p>如果您做的是一个小型项目，使用 CSS 大型框架有点儿“牛刀杀鸡”——大材小用的感觉，您就可以选择 Hantas 了。Hantas 只定义了一些基本的 HTML 元素和格栅系统，也就是说，如果您使用本框架，还需要做大量的后期定制。实际上，<u>基于 Hantas 构建的本站点就有大约 200 行的定制 CSS 代码</u> （其中一半的代码都用于写可以悬停的导航条了）。</p>
+      <p>要查看更多内容，参阅<a href="/docs">文档</a></p>
+    </div>
+
+    <div class="docs-section" id="news">
+      <h6 class="docs-header">新闻</h6>
+      <div class="row news">
+        <ul>
+          
+            <li>
+              <a href="/news/hantas/2021/08/16/hantas-is-comming.html">Hantas 来了</a>
+            </li>
+          
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+:ET

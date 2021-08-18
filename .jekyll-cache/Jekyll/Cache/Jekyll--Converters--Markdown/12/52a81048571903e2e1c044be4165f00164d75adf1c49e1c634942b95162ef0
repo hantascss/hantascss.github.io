@@ -1,55 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
+I"7Z<div class="container">    <section class="header">
+      <h2 class="title">基于 CSS 逻辑属性构建的下一代 CSS 应用。</h2>
 
-<head>
-
-  <meta charset="utf-8">
-  <title>Skeleton Framework: Responsive CSS Framework</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
-
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-
-  <link rel="stylesheet" href="/assets/css/normalize.css">
-  <link rel="stylesheet" href="/assets/css/hantas-vertical.min.css">
-  <link rel="stylesheet" href="/assets/css/site-vertical.css">
-  <link rel="stylesheet" href="/assets/css/vrl.css">
-  
-  <script src="/assets/js/jquery.min.js"></script>
-  <script src="/assets/js/run_prettify.js"></script>
-  <script src="/assets/js/site-vrl.js"></script>
-  <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
-
-</head>
-
-<body class="code-snippets-visible">
-
-  <div class="container">
-    <section class="header">
-      <h2 class="title">A simple responsive framework for mobile friendly development.</h2>
-
-      <a class="button button-primary" href="https://github.com/skeleton-framework/skeleton-framework/releases/latest">Download</a>
+      <a class="button button-primary" href="">下载试用 Hantas</a>
 
       <div class="row">
         <div class="four columns">
-          <img class="value-img" src="/assets/images/feather.svg"> Light as a feather at ~550 lines &amp; built with mobile in mind.
+          <img class="value-img" src="/assets/images/feather.svg" /> 约550行代码 &amp; 为移动设备而生
         </div>
         <div class="four columns value-prop">
-          <img class="value-img" src="/assets/images/pens.svg"> Styles designed to be a starting point, not a UI framework.
+          <img class="value-img" src="/assets/images/pens.svg" /> 始于设计，而非 UI 框架
         </div>
         <div class="four columns value-prop">
-          <img class="value-img" src="/assets/images/watch.svg"> Quick to start with zero compiling or installing necessary.
+          <img class="value-img" src="/assets/images/watch.svg" /> 不需编译、安装，开箱即用
         </div>
       </div>
     </section>
-
-    <div class="navbar-spacer"></div>
+<div class="navbar-spacer"></div>
     <nav class="navbar">
       <div class="container">
         <ul class="navbar-list">
-          <li class="navbar-item"><a class="navbar-link" href="#intro">Intro</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#intro">简介</a></li>
           <li class="navbar-item">
-            <a class="navbar-link" href="#" data-popover="#codeNavPopover">Code</a>
+            <a class="navbar-link" href="#" data-popover="#codeNavPopover">组件应用</a>
             <div id="codeNavPopover" class="popover">
               <ul class="popover-list">
                 <li class="popover-item">
@@ -82,9 +54,25 @@
               </ul>
             </div>
           </li>
-          <li class="navbar-item"><a class="navbar-link" href="#examples">Examples</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#examples">示例</a></li>
           <li class="navbar-item">
-            <a class="navbar-link" href="#" data-popover="#moreNavPopover">More</a>
+            <a class="navbar-link" href="#" data-popover="#writingLayout">布局</a>
+            <div id="writingLayout" class="popover">
+              <ul class="popover-list">
+                <li class="popover-item">
+                  <a class="popover-link" href="">常见布局</a>
+                </li>
+                <li class="popover-item">
+                  <a class="popover-link" href="vertical/lr/">传统蒙古文布局</a>
+                </li>
+                <li class="popover-item">
+                  <a class="popover-link" href="vertical/rl/">东亚传统文字布局</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="navbar-item">
+            <a class="navbar-link" href="#" data-popover="#moreNavPopover">更多……</a>
             <div id="moreNavPopover" class="popover">
               <ul class="popover-list">
                 <li class="popover-item">
@@ -275,14 +263,14 @@
         <div>
           <a class="button" href="#">Anchor button</a>
           <button>Button element</button>
-          <input type="submit" value="submit input">
-          <input type="button" value="button input">
+          <input type="submit" value="submit input" />
+          <input type="button" value="button input" />
         </div>
         <div>
           <a class="button button-primary" href="#">Anchor button</a>
           <button class="button-primary">Button element</button>
-          <input class="button-primary" type="submit" value="submit input">
-          <input class="button-primary" type="button" value="button input">
+          <input class="button-primary" type="submit" value="submit input" />
+          <input class="button-primary" type="button" value="button input" />
         </div>
       </div>
 
@@ -290,14 +278,14 @@
 <code class="code-example-body prettyprint">
 <a class="button" href="#">Anchor button</a>
 <button>Button element</button>
-<input type="submit" value="submit input">
-<input type="button" value="button input">
+<input type="submit" value="submit input" />
+<input type="button" value="button input" />
 
 
 <a class="button button-primary" href="#">Anchor button</a>
 <button class="button-primary">Button element</button>
-<input class="button-primary" type="submit" value="submit input">
-<input class="button-primary" type="button" value="button input">
+<input class="button-primary" type="submit" value="submit input" />
+<input class="button-primary" type="button" value="button input" />
 </code>
 </pre>
 
@@ -311,7 +299,7 @@
           <div class="row">
             <div class="six columns">
               <label for="exampleEmailInput">Your email</label>
-              <input class="u-full-width" type="email" placeholder="test@mailbox.com" id="exampleEmailInput">
+              <input class="u-full-width" type="email" placeholder="test@mailbox.com" id="exampleEmailInput" />
             </div>
             <div class="six columns">
               <label for="exampleRecipientInput">Reason for contacting</label>
@@ -325,10 +313,10 @@
           <label for="exampleMessage">Message</label>
           <textarea class="u-full-width" placeholder="Hey guys &hellip;" id="exampleMessage"></textarea>
           <label class="example-send-yourself-copy">
-            <input type="checkbox">
+            <input type="checkbox" />
             <span class="label-body">Send a copy to yourself</span>
           </label>
-          <input class="button-primary" type="submit" value="Submit">
+          <input class="button-primary" type="submit" value="Submit" />
         </form>
       </div>
 
@@ -338,7 +326,7 @@
   <div class="row">
     <div class="six columns">
       <label for="exampleEmailInput">Your email</label>
-      <input class="u-full-width" type="email" placeholder="test@mailbox.com" id="exampleEmailInput">
+      <input class="u-full-width" type="email" placeholder="test@mailbox.com" id="exampleEmailInput" />
     </div>
     <div class="six columns">
       <label for="exampleRecipientInput">Reason for contacting</label>
@@ -352,10 +340,10 @@
   <label for="exampleMessage">Message</label>
   <textarea class="u-full-width" placeholder="Hey guys &hellip;" id="exampleMessage"></textarea>
   <label class="example-send-yourself-copy">
-    <input type="checkbox">
+    <input type="checkbox" />
     <span class="label-body">Send a copy to yourself</span>
   </label>
-  <input class="button-primary" type="submit" value="Submit">
+  <input class="button-primary" type="submit" value="Submit" />
 </form>
 
 
@@ -631,7 +619,7 @@
       <h6 class="docs-header">Examples</h6>
       <div class="row example">
         <a class="example-screenshot-wrapper" target="_blank" href="landing">
-          <img class="example-screenshot" src="/assets/images/landing.jpg">
+          <img class="example-screenshot" src="/assets/images/landing.jpg" />
         </a>
         <div class="one-half offset-by-one-half column">
           <h6 class="example-header">Demo Landing Page</h6>
@@ -651,6 +639,5 @@
       </div>
     </div>
   </div>
-</body>
 
-</html>
+:ET

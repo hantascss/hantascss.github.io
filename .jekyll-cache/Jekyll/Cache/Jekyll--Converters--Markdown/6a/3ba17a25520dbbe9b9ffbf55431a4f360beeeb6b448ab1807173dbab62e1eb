@@ -1,0 +1,5 @@
+I"<p>CSS 有些值的设定方位感很明显，例如 <code class="language-plaintext highlighter-rouge">margin-top</code>, <code class="language-plaintext highlighter-rouge">margin-left</code> 等，在一般情况下，这没什么问题。但是如果设定了 <code class="language-plaintext highlighter-rouge">writing-mode: vertical-lr;</code>时，很多问题就会出现了。为了解决这些问题，CSS 新设定了一些逻辑值——不设定绝对方位，而是使用逻辑判断或者相对值——例如 <code class="language-plaintext highlighter-rouge">margin-top</code> 转换为 <code class="language-plaintext highlighter-rouge">margin-block-start</code> ，<code class="language-plaintext highlighter-rouge">margin-left</code> 转换为 <code class="language-plaintext highlighter-rouge">margin-inline-start</code> ，这样对于不同的文字布局就不需要进行特殊设定了。</p>
+
+<p>基于这些逻辑值的 CSS 框架——Hantas在这里：
+<a href="https://github.com/hantascss/hantas">hantas</a></p>
+:ET

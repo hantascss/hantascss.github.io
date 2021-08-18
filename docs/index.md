@@ -52,10 +52,10 @@ layout: home
                   <a class="popover-link" href="">常见布局</a>
                 </li>
                 <li class="popover-item">
-                  <a class="popover-link" href="">传统蒙古文布局</a>
+                  <a class="popover-link" href="vertical/lr/">传统蒙古文布局</a>
                 </li>
                 <li class="popover-item">
-                  <a class="popover-link" href="">东亚传统文字布局</a>
+                  <a class="popover-link" href="vertical/rl/">东亚传统文字布局</a>
                 </li>
               </ul>
             </div>
