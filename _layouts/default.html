@@ -3,9 +3,11 @@
 
   {%- include head.html -%}
 
-  <body class="code-snippets-visible">
+  <body>
+  <div class="container">
+  {%- include nav.html -%}
   {{ content }}
   {%- include footer.html -%}
+  </div>
   </body>
-
 </html>

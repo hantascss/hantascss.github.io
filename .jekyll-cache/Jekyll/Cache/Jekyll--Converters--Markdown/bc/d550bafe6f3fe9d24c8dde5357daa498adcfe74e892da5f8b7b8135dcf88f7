@@ -1,97 +1,26 @@
-I"7Z<div class="container">    <section class="header">
-      <h2 class="title">基于 CSS 逻辑属性构建的下一代 CSS 应用。</h2>
+I"
+M<div class="container"><section class="header">
+  <h2 class="title">基于 CSS 逻辑属性构建的下一代 CSS 应用。</h2>
 
-      <a class="button button-primary" href="">下载试用 Hantas</a>
+  <div class="row">
+    <div class="four columns">
+      <img class="value-img" src="/assets/images/feather.svg" /> 约550行代码 &amp; 为移动设备而生
+    </div>
+    <div class="four columns value-prop">
+      <img class="value-img" src="/assets/images/pens.svg" /> 始于设计，而非 UI 框架
+    </div>
+    <div class="four columns value-prop">
+      <img class="value-img" src="/assets/images/watch.svg" /> 不需编译、安装，开箱即用
+    </div>
+  </div>
 
-      <div class="row">
-        <div class="four columns">
-          <img class="value-img" src="/assets/images/feather.svg" /> 约550行代码 &amp; 为移动设备而生
-        </div>
-        <div class="four columns value-prop">
-          <img class="value-img" src="/assets/images/pens.svg" /> 始于设计，而非 UI 框架
-        </div>
-        <div class="four columns value-prop">
-          <img class="value-img" src="/assets/images/watch.svg" /> 不需编译、安装，开箱即用
-        </div>
-      </div>
-    </section>
-<div class="navbar-spacer"></div>
-    <nav class="navbar">
-      <div class="container">
-        <ul class="navbar-list">
-          <li class="navbar-item"><a class="navbar-link" href="#intro">简介</a></li>
-          <li class="navbar-item">
-            <a class="navbar-link" href="#" data-popover="#codeNavPopover">组件应用</a>
-            <div id="codeNavPopover" class="popover">
-              <ul class="popover-list">
-                <li class="popover-item">
-                  <a class="popover-link" href="#grid">Grid</a>
-                </li>
-                <li class="popover-item">
-                  <a class="popover-link" href="#typography">Typography</a>
-                </li>
-                <li class="popover-item">
-                  <a class="popover-link" href="#buttons">Buttons</a>
-                </li>
-                <li class="popover-item">
-                  <a class="popover-link" href="#forms">Forms</a>
-                </li>
-                <li class="popover-item">
-                  <a class="popover-link" href="#lists">Lists</a>
-                </li>
-                <li class="popover-item">
-                  <a class="popover-link" href="#code">Code</a>
-                </li>
-                <li class="popover-item">
-                  <a class="popover-link" href="#tables">Tables</a>
-                </li>
-                <li class="popover-item">
-                  <a class="popover-link" href="#queries">Queries</a>
-                </li>
-                <li class="popover-item">
-                  <a class="popover-link" href="#utilities">Utilities</a>
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li class="navbar-item"><a class="navbar-link" href="#examples">示例</a></li>
-          <li class="navbar-item">
-            <a class="navbar-link" href="#" data-popover="#writingLayout">布局</a>
-            <div id="writingLayout" class="popover">
-              <ul class="popover-list">
-                <li class="popover-item">
-                  <a class="popover-link" href="">常见布局</a>
-                </li>
-                <li class="popover-item">
-                  <a class="popover-link" href="vertical/lr/">传统蒙古文布局</a>
-                </li>
-                <li class="popover-item">
-                  <a class="popover-link" href="vertical/rl/">东亚传统文字布局</a>
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li class="navbar-item">
-            <a class="navbar-link" href="#" data-popover="#moreNavPopover">更多……</a>
-            <div id="moreNavPopover" class="popover">
-              <ul class="popover-list">
-                <li class="popover-item">
-                  <a class="popover-link" href="https://github.com/SkeletonFramework/SkeletonFramework">On Github</a>
-                </li>
-                <li class="popover-item">
-                  <a class="popover-link" href="https://github.com/SkeletonFramework/SkeletonFramework/blob/master/LICENSE">License</a>
-                </li>
-                <li class="popover-item">
-                  <a class="popover-link" href="https://github.com/SkeletonFramework/SkeletonFramework/releases">Versions</a>
-                </li>
-              </ul>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </nav>
+  <div class="row">
+  <br /><br /><br />
+    <a class="button button-primary" href="">下载试用 Hantas</a>
+  </div>
 
-    <div class="docs-section" id="intro">
+</section>
+<div class="docs-section" id="intro">
       <h6 class="docs-header">Is Skeleton Framework for you?</h6>
       <p>You should use Skeleton Framework if you're embarking on a smaller project or just don't feel like you need all the utility of larger frameworks. Skeleton only styles a handful of standard HTML elements and includes a grid, but that's often more than enough to get started. In fact, <u>this site is built on Skeleton Framework and has ~200 lines of custom CSS</u> (half of which is the docking navigation).</p>
     </div>

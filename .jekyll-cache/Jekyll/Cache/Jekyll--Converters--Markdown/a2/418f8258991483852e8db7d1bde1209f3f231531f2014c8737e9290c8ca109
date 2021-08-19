@@ -1,11 +1,25 @@
----
-layout: home
----
-<div class="container">
+I"RM<div class="container">    <section class="header">
+      <h2 class="title">基于 CSS 逻辑属性构建的下一代 CSS 应用。</h2>
 
-    {%- include header.html -%}
+      <div class="row">
+        <div class="four columns">
+          <img class="value-img" src="/assets/images/feather.svg" /> 约550行代码 &amp; 为移动设备而生
+        </div>
+        <div class="four columns value-prop">
+          <img class="value-img" src="/assets/images/pens.svg" /> 始于设计，而非 UI 框架
+        </div>
+        <div class="four columns value-prop">
+          <img class="value-img" src="/assets/images/watch.svg" /> 不需编译、安装，开箱即用
+        </div>
+      </div>
 
-    <div class="docs-section" id="intro">
+      <div class="row">
+      <br /><br /><br />
+        <a class="button button-primary" href="">下载试用 Hantas</a>
+      </div>
+
+    </section>
+<div class="docs-section" id="intro">
       <h6 class="docs-header">Is Skeleton Framework for you?</h6>
       <p>You should use Skeleton Framework if you're embarking on a smaller project or just don't feel like you need all the utility of larger frameworks. Skeleton only styles a handful of standard HTML elements and includes a grid, but that's often more than enough to get started. In fact, <u>this site is built on Skeleton Framework and has ~200 lines of custom CSS</u> (half of which is the docking navigation).</p>
     </div>
@@ -177,14 +191,14 @@ layout: home
         <div>
           <a class="button" href="#">Anchor button</a>
           <button>Button element</button>
-          <input type="submit" value="submit input">
-          <input type="button" value="button input">
+          <input type="submit" value="submit input" />
+          <input type="button" value="button input" />
         </div>
         <div>
           <a class="button button-primary" href="#">Anchor button</a>
           <button class="button-primary">Button element</button>
-          <input class="button-primary" type="submit" value="submit input">
-          <input class="button-primary" type="button" value="button input">
+          <input class="button-primary" type="submit" value="submit input" />
+          <input class="button-primary" type="button" value="button input" />
         </div>
       </div>
 
@@ -192,14 +206,14 @@ layout: home
 <code class="code-example-body prettyprint">
 <a class="button" href="#">Anchor button</a>
 <button>Button element</button>
-<input type="submit" value="submit input">
-<input type="button" value="button input">
+<input type="submit" value="submit input" />
+<input type="button" value="button input" />
 
 
 <a class="button button-primary" href="#">Anchor button</a>
 <button class="button-primary">Button element</button>
-<input class="button-primary" type="submit" value="submit input">
-<input class="button-primary" type="button" value="button input">
+<input class="button-primary" type="submit" value="submit input" />
+<input class="button-primary" type="button" value="button input" />
 </code>
 </pre>
 
@@ -213,7 +227,7 @@ layout: home
           <div class="row">
             <div class="six columns">
               <label for="exampleEmailInput">Your email</label>
-              <input class="u-full-width" type="email" placeholder="test@mailbox.com" id="exampleEmailInput">
+              <input class="u-full-width" type="email" placeholder="test@mailbox.com" id="exampleEmailInput" />
             </div>
             <div class="six columns">
               <label for="exampleRecipientInput">Reason for contacting</label>
@@ -227,10 +241,10 @@ layout: home
           <label for="exampleMessage">Message</label>
           <textarea class="u-full-width" placeholder="Hey guys &hellip;" id="exampleMessage"></textarea>
           <label class="example-send-yourself-copy">
-            <input type="checkbox">
+            <input type="checkbox" />
             <span class="label-body">Send a copy to yourself</span>
           </label>
-          <input class="button-primary" type="submit" value="Submit">
+          <input class="button-primary" type="submit" value="Submit" />
         </form>
       </div>
 
@@ -240,7 +254,7 @@ layout: home
   <div class="row">
     <div class="six columns">
       <label for="exampleEmailInput">Your email</label>
-      <input class="u-full-width" type="email" placeholder="test@mailbox.com" id="exampleEmailInput">
+      <input class="u-full-width" type="email" placeholder="test@mailbox.com" id="exampleEmailInput" />
     </div>
     <div class="six columns">
       <label for="exampleRecipientInput">Reason for contacting</label>
@@ -254,10 +268,10 @@ layout: home
   <label for="exampleMessage">Message</label>
   <textarea class="u-full-width" placeholder="Hey guys &hellip;" id="exampleMessage"></textarea>
   <label class="example-send-yourself-copy">
-    <input type="checkbox">
+    <input type="checkbox" />
     <span class="label-body">Send a copy to yourself</span>
   </label>
-  <input class="button-primary" type="submit" value="Submit">
+  <input class="button-primary" type="submit" value="Submit" />
 </form>
 
 
@@ -533,7 +547,7 @@ layout: home
       <h6 class="docs-header">Examples</h6>
       <div class="row example">
         <a class="example-screenshot-wrapper" target="_blank" href="landing">
-          <img class="example-screenshot" src="/assets/images/landing.jpg">
+          <img class="example-screenshot" src="/assets/images/landing.jpg" />
         </a>
         <div class="one-half offset-by-one-half column">
           <h6 class="example-header">Demo Landing Page</h6>
@@ -554,3 +568,4 @@ layout: home
     </div>
   </div>
 
+:ET
