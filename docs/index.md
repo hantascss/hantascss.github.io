@@ -6,7 +6,7 @@ layout: home
     {%- include header.html -%}
 
     <div class="docs-section" id="intro">
-      <h6 class="docs-header">Is Skeleton Framework for you?</h6>
+      <h6 class="docs-header">Hantas 适合您吗？</h6>
       <p>You should use Skeleton Framework if you're embarking on a smaller project or just don't feel like you need all the utility of larger frameworks. Skeleton only styles a handful of standard HTML elements and includes a grid, but that's often more than enough to get started. In fact, <u>this site is built on Skeleton Framework and has ~200 lines of custom CSS</u> (half of which is the docking navigation).</p>
     </div>
 
